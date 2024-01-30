@@ -1,0 +1,27 @@
+@keyframes animacion-grid {
+    from {
+        zoom: 100%;
+        filter: brightness(0.6);
+        transform: scale3d(1, 1, 1);
+    }
+    to {
+        filter: brightness(1);
+        zoom: 500%;
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+}
+
+.animacion-grid {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(0.6);
+    transform: scale3d(1, 1, 1);
+}
+
+.animacion-grid:hover {
+    animation: animacion-grid .3s ease forwards;
+}
+
