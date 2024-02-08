@@ -7,8 +7,8 @@ export default function Footer() {
       <hr className="md:hidden w-48 h-1 mx-auto my-4  border-0 rounded md:my-10 bg-gray-700" />
       <footer className="md:hidden w-auto grid grid-rows-2">
         <div className="grid grid-cols-2 mb-3">
-          <img className="m-auto h-20 object-cover" src="/uanl-logo.png" alt="" />
-          <img className="m-auto h-24 object-cover" src="/fcq.png" alt="" />
+          <img className="m-auto h-20 object-cover" src="./uanl-logo.png" alt="" />
+          <img className="m-auto h-24 object-cover" src="./fcq.png" alt="" />
         </div>
         <div>
           <div className="grid grid-rows-2">
@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="flex justify-end">
             <img
               className="my-auto mr-10 w-auto h-20 object-cover"
-              src="/uanl-logo.png"
+              src="./uanl-logo.png"
               alt=""
             />
           </div>
@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="flex">
             <img
               className="ml-10 my-auto w-32 h-32 object-cover"
-              src="/fcq.png"
+              src="./fcq.png"
               alt=""
             />
           </div>

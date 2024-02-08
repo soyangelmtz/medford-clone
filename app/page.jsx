@@ -7,7 +7,7 @@ export default function page() {
     <div className='w-[80vw] mx-auto'>
       {/* Jumbotron image */}
       <section className='flex overflow-hidden h-56'>
-        <img className='mx-auto object-cover w-full' src="/jumbotron-2.jpg" alt="" />
+        <img className='mx-auto object-cover w-full' src="./jumbotron-2.jpg" alt="" />
       </section>
 
       <section className='h-[50vh] mt-20'>

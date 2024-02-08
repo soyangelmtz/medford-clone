@@ -206,15 +206,15 @@ export default function Header() {
 
       <header className="md:grid hidden grid-cols-3 lg:p-10 md:p-10 md:px-20">
         <div className="md:grid md:grid-rows-3 lg:flex lg:justify-evenly">
-            <Link className="hover:text-yellow-500" href="/">HOME</Link>
-            <Link className="hover:text-yellow-500" href="/research">RESEARCH</Link>
-            <Link className="hover:text-yellow-500" href="/tools">TOOLS</Link>
+            <Link className="hover:text-yellow-500" href="./">HOME</Link>
+            <Link className="hover:text-yellow-500" href="./research">RESEARCH</Link>
+            <Link className="hover:text-yellow-500" href="./tools">TOOLS</Link>
         </div>
         <div className="text-center text-3xl cursor-default">IVAN SANTOS</div>
         <div className="md:grid md:grid-rows-3 lg:flex lg:justify-evenly md:text-end">
-            <Link className="hover:text-yellow-500" href="/people">PEOPLE</Link>
-            <Link className="hover:text-yellow-500" href="/publications">PUBLICATIONS</Link>
-            <Link className="hover:text-yellow-500" href="/join">JOIN</Link>
+            <Link className="hover:text-yellow-500" href="./people">PEOPLE</Link>
+            <Link className="hover:text-yellow-500" href="./publications">PUBLICATIONS</Link>
+            <Link className="hover:text-yellow-500" href="./join">JOIN</Link>
         </div>
       </header>
     </>
