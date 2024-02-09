@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  images: {
+    unoptimized: true,
+  },
   content: [
     "./node_modules/flowbite/**/*.js",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
